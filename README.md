@@ -41,10 +41,9 @@ uv run dev
 
 ## 📌 Usage  
 - Start the chatbot, and interact with it through the Chainlit UI.  
-- Ask for the weather using a city name (e.g., "Find the weather in Karachi").  
+- Ask for the weather using a city name (e.g., "Find the weather in Islamabad").  
 
-## 📜 License  
-This project is licensed under the MIT License.  
+
 
 ---
   
