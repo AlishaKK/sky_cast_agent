@@ -1,0 +1,21 @@
+[project]
+name = "weather-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AlishaKK", email = "nidakayani043@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.4.1",
+    "openai-agents>=0.0.4",
+]
+
+[project.scripts]
+weather-agent = "weather_agent:main"
+dev = "weather_agent.script:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
