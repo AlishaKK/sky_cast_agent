@@ -7,7 +7,7 @@ A chatbot assistant that provides real-time weather updates using Chainlit, Open
 
 ## 🚀 Features  
 - Fetches live weather data for any city  
-- Uses OpenAI Agents for AI interactions  
+- Uses OpenAI Agents sdk for AI interactions  
 - Built with Chainlit for an interactive chat experience  
 
 ## 🛠 Installation  
