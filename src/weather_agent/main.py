@@ -110,7 +110,7 @@ async def start():
     agent = Agent(name="Assistant", instructions="You are a helpful assistant", model=model)
     agent.tools.append(get_weather)
     cl.user_session.set("agent", agent)
-    await cl.Message(content="Welcome to the AI Assistant! How can I help you today?").send()
+    await cl.Message(content=" Welcome!  Check the latest weather updates for your location! ").send()
 
 @cl.on_message
 async def main(message: cl.Message):
